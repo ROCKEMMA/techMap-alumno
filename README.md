@@ -1,10 +1,10 @@
 # techMap-alumno# techMap-alumno
 | Título del Proyecto | TechMap |
-
+|---------------------|---------|
 | **Autor**           | Danna Osorio |
-
+|---------------------|---------|
 | **Establecimiento** | Santa Catalina Labouré |
-
+|---------------------|---------|
 | **Github Page**     | https://rockemma.github.io/techMap-danna/ |
 
 ## **Descripción del Proyecto**
