@@ -1,0 +1,31 @@
+/* CSS básico para las banderas */
+.flag {
+    position: absolute;
+    background-color: rgba(19, 188, 235, 0.945); /* Fondo semitransparente para mejor visibilidad */
+    color: white; /* Texto blanco para contraste */
+    padding: 5px 10px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 12px; /* Tamaño de fuente ajustado */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    white-space: nowrap; /* No envolver texto en múltiples líneas */
+    pointer-events: none; /* Evitar que las banderas interfieran con otros eventos del mouse */
+    z-index: 10; /* Asegura que las banderas estén por encima de otros elementos */
+    display: none; /* Oculta las banderas inicialmente */
+    transition: opacity 0.3s ease; /* Suaviza la transición de aparición/desaparición de la bandera */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra ligera */
+  }
+  
+  /* CSS para el contenedor de la placa madre */
+  #motherboard-container {
+    position: relative; /* Necesario para posicionar las banderas absolutamente dentro del contenedor */
+    width: 50%; /* Ajusta el ancho del contenedor al contenido */
+    margin: auto; /* Centra el contenedor horizontalmente */
+  }
+  
+  /* CSS para la imagen de la placa madre */
+  #motherboard-image {
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    max-width: 100%; /* Ajusta la imagen para que se ajuste al contenedor en pantallas pequeñas */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+  }
+  
