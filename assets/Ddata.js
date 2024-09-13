@@ -243,3 +243,4 @@ const componentes = [
       ]
     }
   ];  
+  export {componentes};

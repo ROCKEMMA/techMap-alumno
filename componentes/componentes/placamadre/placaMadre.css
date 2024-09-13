@@ -1,0 +1,81 @@
+.padre {
+    display: grid;
+    grid-template-columns: 15% 1fr 15%;
+}
+.contenedorimg {
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-template-columns: repeat(25, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+#img {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 25;
+    grid-row-start: 2;
+    grid-row-end: 20;
+}
+.contenedorimg button {
+    background-color: transparent; 
+    border: none;
+    border-radius: 3px;
+    font-family: cursive;
+    color: transparent; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+#btn1 {
+    grid-column-start: 8;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 11;
+}
+#btn2 {
+    grid-column-start: 20;
+    grid-column-end: 23;
+    grid-row-start: 18;
+    grid-row-end: 19;
+}
+#btn3 {
+    grid-column-start: 12;
+    grid-column-end: 16;
+    grid-row-start: 6;
+    grid-row-end: 10;
+}
+#btn4 {
+    grid-column-start: 22;
+    grid-column-end: 24;
+    grid-row-start: 6;
+    grid-row-end: 11;
+}
+#btn5 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 11;
+}
+#btn6 {
+    grid-column-start: 12;
+    grid-column-end: 16;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+#btn7 {
+    grid-column-start: 18;
+    grid-column-end: 22;
+    grid-row-start: 12;
+    grid-row-end: 16;
+}
+#btn8{
+    grid-column-start: 22;
+    grid-column-end: 24;
+    grid-row-start: 16;
+    grid-row-end: 18;
+}
+button.show-text {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white; 
+    font-family: cursive;
+    font-size: 1.5rem;
+}
