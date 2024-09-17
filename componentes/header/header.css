@@ -1,19 +1,19 @@
-header.coso {
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #607274;
+    background-color: #9BABB8;
     padding: 20px;
     color: white;
 }
-
-header.coso h1 {
-    font-size: 24px;
+.header p {
+    font-size: 24px; 
+    font-family: cursive;
     margin-bottom: 15px;
 }
 
-header.coso nav {
+.opciones {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -21,65 +21,66 @@ header.coso nav {
     margin-bottom: 15px;
 }
 
-header.coso nav a {
+.opciones p {
     color: black;
     text-decoration: none;
     padding: 8px 12px;
-    background-color: #FAEED1;
+    background-color: #C4DFDF;
+    font-family: cursive;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
     font-size: 1rem;
 }
-
-header.coso nav a:hover {
-    background-color: #777;
+.opciones p:hover {
+    background-color: #E3F4F4;
 }
 
-header.coso .github-btn {
+.botomgit {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    background-color: #24292e;
-    border-radius: 4px;
+    background-color: #C0DBEA;
+    border: none;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
     font-size: 1rem;
 }
 
-header.coso .github-btn:hover {
-    background-color: #444;
+.botomgit:hover {
+    background-color: #CDF0EA;
 }
 
+/* chaifons */
 @media (max-width: 480px) {
-    header.coso h1 {
+    .header p {
         font-size: 20px;
     }
 
-    header.coso nav {
+    .opciones {
         gap: 5px;
     }
 
-    header.coso nav a {
+    .opciones p {
         font-size: 14px;
         padding: 6px 8px;
     }
 
-    header.coso .github-btn {
+    .botomgit {
         font-size: 14px;
         padding: 8px 10px;
     }
 }
 
 @media (max-width: 375px) {
-    header.coso h1 {
+    .header p {
         font-size: 18px;
     }
 
-    header.coso nav a {
+    .opciones p {
         font-size: 12px;
         padding: 5px 6px;
     }
 
-    header.coso .github-btn {
+    .botomgit {
         font-size: 12px;
         padding: 7px 8px;
     }
