@@ -2,6 +2,8 @@ let header = document.createElement('div');
 header.classList.add('header');
 
 let titu = document.createElement('p');
+
+
 let tituloTexto = document.createTextNode('TechMap');
 titu.appendChild(tituloTexto);
 header.appendChild(titu);
