@@ -1,80 +1,119 @@
-.padre {
-    display: grid;
-    grid-template-columns: 15% 1fr 15%;
+.header {
+    background-color: #333; 
+    color: white; 
+    padding: 20px; 
+    text-align: center; 
 }
-.contenedorimg {
-    display: grid;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    grid-row-end: 2;
-    grid-template-columns: repeat(25, 1fr);
-    grid-template-rows: repeat(20, 1fr);
+.header p {
+    margin: 0; 
+    font-size: 24px; 
 }
-#img {
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 25;
-    grid-row-start: 2;
-    grid-row-end: 20;
+.opciones {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 10px; 
 }
-.contenedorimg button {
+.opciones p {
+    margin: 0 15px; 
+    cursor: pointer; 
+}
+.placa-contenedor {
+    width: 1000px;
+    height: 1000px;
+    padding: 20px; 
+    margin-top: 20px;
+    border: 10px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(40 , 1fr);
+    grid-template-rows: repeat(40 , 1fr);
+}
+.placa-contenedor img {
+    grid-column: 1/41;
+    grid-row: 1/41;
+    max-width: 100%; 
+    height: auto; 
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.placa-contenedor  div {
     background-color: transparent; 
     border: none;
     border-radius: 3px;
     font-family: cursive;
-    color: transparent; 
-    transition: background-color 0.3s, color 0.3s; 
+    color: white; 
+    transition: background-color 0.3s, color 0.3s;
 }
-#btn1 {
-    grid-column-start: 8;
-    grid-column-end: 10;
-    grid-row-start: 4;
-    grid-row-end: 11;
+
+/* TODOS LOS COMPONENTES */  
+.componente1{
+    grid-column: 18/25;
+    grid-row: 13/20;
 }
-#btn2 {
-    grid-column-start: 20;
-    grid-column-end: 23;
-    grid-row-start: 18;
-    grid-row-end: 19;
+.componente1:hover{
+    background-color: rgba(0, 0, 0, 0.5);
 }
-#btn3 {
-    grid-column-start: 12;
-    grid-column-end: 16;
-    grid-row-start: 6;
-    grid-row-end: 10;
+
+.componente2{
+    grid-column: 10/14;
+    grid-row:5/25;
 }
-#btn4 {
-    grid-column-start: 22;
-    grid-column-end: 24;
-    grid-row-start: 6;
-    grid-row-end: 11;
+.componente2:hover {
+     background-color: rgba(0, 0, 0, 0.5);
 }
-#btn5 {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 11;
+
+.componente3{
+    grid-column: 10/26;
+    grid-row: 26/28;
 }
-#btn6 {
-    grid-column-start: 12;
-    grid-column-end: 16;
-    grid-row-start: 3;
-    grid-row-end: 5;
+.componente3:hover{
+    background-color: rgba(0, 0, 0, 0.5);
 }
-#btn7 {
-    grid-column-start: 18;
-    grid-column-end: 22;
-    grid-row-start: 12;
-    grid-row-end: 16;
+
+.componente4{
+   
+    grid-column: 3/5;
+    grid-row: 35/37;
 }
-#btn8{
-    grid-column-start: 22;
-    grid-column-end: 24;
-    grid-row-start: 16;
-    grid-row-end: 18;
+.componente4:hover{
+    background-color: rgba(0, 0, 0, 0.5);
 }
+
+.componente6{
+    grid-column: 21/23;
+    grid-row: 29/31;
+}
+.componente6:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.componente7{
+    grid-column: 2/6;
+    grid-row: 21/24;
+}
+.componente7:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.componente8{
+   grid-column: 10/18;
+   grid-row: 38/39;
+}
+.componente8:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.componente9{
+    grid-column: 27/35;
+    grid-row: 26/36;
+}
+.componente9:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 button.show-text {
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgb(6, 1, 16); 
     color: white; 
     font-family: cursive;
     font-size: 1.5rem;
