@@ -196,47 +196,47 @@ const placamadreC= [
      on: "El chip de audio maneja el procesamiento y la salida de sonido.",
      partes: [
         {
-          nombreParteuno: "Socket del Procesador",
+          nombre: "Socket del Procesador",
           descripcion: "El socket del procesador es la ranura donde se instala el CPU.",
           categoria: "Conectores"
         },
         {
-          nombreParteDos: "Ranuras de RAM",
+          nombre: "Ranuras de RAM",
           descripcion: "Las ranuras de RAM son los espacios donde se insertan los módulos de memoria RAM.",
           categoria: "Conectores"
         },
         {
-          nombreParteTres: "Puertos PCI",
+          nombre: "Puertoss  PCI",
           descripcion: "Los puertos PCI permiten la instalación de tarjetas de expansión.",
           categoria: "Conectores"
         },
         {
-          nombreParteCuatro: "Conectores SATA",
+          nombre: "ConectoresS SATA",
           descripcion: "Los conectores SATA se utilizan para conectar discos duros y unidades SSD.",
           categoria: "Conectores"
         },
         {
-          nombreParteCinco: "Chip de Audio",
+          nombre: "Chip de Audio",
           descripcion: "El chip de audio maneja el procesamiento y la salida de sonido.",
           categoria: "Chips"
         },
         {
-          nombreParteSeis: "Chip BIOS/UEFI",
+          nombre: "Chip BIOS/UEFI",
           descripcion: "El chip BIOS o UEFI contiene el firmware que inicializa el hardware del sistema.",
           categoria: "Chips"
         },
         {
-          nombreParteSiete: "Puertos USB",
+          nombre: "Puertos USB",
           descripcion: "Los puertos USB permiten la conexión de dispositivos periféricos.",
           categoria: "Puertos"
         },
         {
-          nombreParteOcho: "Conectores de Energía",
+          nombre: "Conectores de Energía",
           descripcion: "Los conectores de energía permiten que la placa madre reciba alimentación desde la fuente de poder.",
           categoria: "Conectores"
         },
         {
-          nombreParteNue: "Chipset",
+          nombre: "Chipset",
           descripcion: "El chipset controla la comunicación entre el procesador y los demás componentes.",
           categoria: "Chips"
         }

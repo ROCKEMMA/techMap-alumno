@@ -1,21 +1,54 @@
 .header {
-    background-color: #333; 
-    color: white; 
-    padding: 20px; 
-    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9BABB8;
+    padding: 20px;
+    color: white;
+    
 }
 .header p {
-    margin: 0; 
+    
     font-size: 24px; 
+    font-family: cursive;
+    margin-bottom: 15px;
 }
+
 .opciones {
-    display: flex; 
-    justify-content: center; 
-    margin-top: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
 }
+
 .opciones p {
-    margin: 0 15px; 
-    cursor: pointer; 
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #C4DFDF;
+    font-family: cursive;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.opciones p:hover {
+    background-color: #E3F4F4;
+}
+
+.botomgit {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #C0DBEA;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.botomgit:hover {
+    background-color: #CDF0EA;
 }
 .placa-contenedor {
     width: 1000px;
@@ -37,84 +70,85 @@
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
-.placa-contenedor  div {
-    background-color: transparent; 
-    border: none;
-    border-radius: 3px;
-    font-family: cursive;
-    color: white; 
-    transition: background-color 0.3s, color 0.3s;
+
+.bandera {
+    display: none;
+}
+
+.elemento-placa:hover .bandera {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.699);
 }
 
 /* TODOS LOS COMPONENTES */  
-.componente1{
+.Socket{
     grid-column: 18/25;
     grid-row: 13/20;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+    align-content: center;
 }
-.componente1:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.componente2{
+.Ranuras{
     grid-column: 10/14;
     grid-row:5/25;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+    align-content: center;
 }
-.componente2:hover {
-     background-color: rgba(0, 0, 0, 0.5);
-}
-
-.componente3{
+.Puertoss{
     grid-column: 10/26;
     grid-row: 26/28;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+    align-content: center;
 }
-.componente3:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.componente4{
-   
-    grid-column: 3/5;
+.ConectoresS{
+    grid-column: 3/6;
     grid-row: 35/37;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+    align-content: center;
 }
-.componente4:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.componente6{
-    grid-column: 21/23;
+.Chip{
+    grid-column: 20/23;
     grid-row: 29/31;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+    align-content: center;
 }
-.componente6:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.componente7{
+.Puertos{
     grid-column: 2/6;
     grid-row: 21/24;
-}
-.componente7:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.componente8{
-   grid-column: 10/18;
-   grid-row: 38/39;
-}
-.componente8:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.componente9{
-    grid-column: 27/35;
-    grid-row: 26/36;
-}
-.componente9:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-button.show-text {
-    background-color: rgb(6, 1, 16); 
-    color: white; 
+    color: white;
+    text-align: center;
     font-family: cursive;
-    font-size: 1.5rem;
+    align-items: center;
+    align-content: center;
+}
+.Conectores{
+    grid-column: 10/18;
+    grid-row: 38/39;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+    align-content: center;
+}
+.Chipset{
+    grid-column: 27/35;
+    grid-row: 26/36; color: white;
+    text-align: center;
+    font-family: cursive;
+    align-items: center;
+    align-content: center;
 }
