@@ -1,4 +1,4 @@
-const componentes = [
+const placamadreC= [
     {
       nombre: "SSD",
       descripcion: "La unidad de estado sólido (SSD) es un dispositivo de almacenamiento que utiliza memoria flash para guardar datos, reemplazando los discos mecánicos de los discos duros tradicionales.",
@@ -196,50 +196,51 @@ const componentes = [
      on: "El chip de audio maneja el procesamiento y la salida de sonido.",
      partes: [
         {
-          nombreParte: "Socket del Procesador",
+          nombre: "Socket del Procesador",
           descripcion: "El socket del procesador es la ranura donde se instala el CPU.",
           categoria: "Conectores"
         },
         {
-          nombreParte: "Ranuras de RAM",
+          nombre: "Ranuras de RAM",
           descripcion: "Las ranuras de RAM son los espacios donde se insertan los módulos de memoria RAM.",
           categoria: "Conectores"
         },
         {
-          nombreParte: "Puertos PCI",
+          nombre: "Puertoss PCI",
           descripcion: "Los puertos PCI permiten la instalación de tarjetas de expansión.",
           categoria: "Conectores"
         },
         {
-          nombreParte: "Conectores SATA",
+          nombre: "Conectoress SATA",
           descripcion: "Los conectores SATA se utilizan para conectar discos duros y unidades SSD.",
           categoria: "Conectores"
         },
         {
-          nombreParte: "Chip de Audio",
+          nombre: "Chip de Audio",
           descripcion: "El chip de audio maneja el procesamiento y la salida de sonido.",
           categoria: "Chips"
         },
         {
-          nombreParte: "Chip BIOS/UEFI",
+          nombre: "Chip BIOS/UEFI",
           descripcion: "El chip BIOS o UEFI contiene el firmware que inicializa el hardware del sistema.",
           categoria: "Chips"
         },
         {
-          nombreParte: "Puertos USB",
+          nombre: "Puertos USB",
           descripcion: "Los puertos USB permiten la conexión de dispositivos periféricos.",
           categoria: "Puertos"
         },
         {
-          nombreParte: "Conectores de Energía",
+          nombre: "Conectores de Energía",
           descripcion: "Los conectores de energía permiten que la placa madre reciba alimentación desde la fuente de poder.",
           categoria: "Conectores"
         },
         {
-          nombreParte: "Chipset",
+          nombre: "Chipset",
           descripcion: "El chipset controla la comunicación entre el procesador y los demás componentes.",
           categoria: "Chips"
         }
       ]
     }
   ];  
+  export {placamadreC};
