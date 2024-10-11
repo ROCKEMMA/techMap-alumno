@@ -195,51 +195,64 @@ const placamadreC= [
       descripcion: "La placa madre es el componente principal de un ordenador, donde se conectan todos los demás componentes y periféricos.",
      on: "El chip de audio maneja el procesamiento y la salida de sonido.",
      partes: [
-        {
-          nombre: "Socket del Procesador",
-          descripcion: "El socket del procesador es la ranura donde se instala el CPU.",
-          categoria: "Conectores"
-        },
-        {
-          nombre: "Ranuras de RAM",
-          descripcion: "Las ranuras de RAM son los espacios donde se insertan los módulos de memoria RAM.",
-          categoria: "Conectores"
-        },
-        {
-          nombre: "Puertoss PCI",
-          descripcion: "Los puertos PCI permiten la instalación de tarjetas de expansión.",
-          categoria: "Conectores"
-        },
-        {
-          nombre: "Conectoress SATA",
-          descripcion: "Los conectores SATA se utilizan para conectar discos duros y unidades SSD.",
-          categoria: "Conectores"
-        },
-        {
-          nombre: "Chip de Audio",
-          descripcion: "El chip de audio maneja el procesamiento y la salida de sonido.",
-          categoria: "Chips"
-        },
-        {
-          nombre: "Chip BIOS/UEFI",
-          descripcion: "El chip BIOS o UEFI contiene el firmware que inicializa el hardware del sistema.",
-          categoria: "Chips"
-        },
-        {
-          nombre: "Puertos USB",
-          descripcion: "Los puertos USB permiten la conexión de dispositivos periféricos.",
-          categoria: "Puertos"
-        },
-        {
-          nombre: "Conectores de Energía",
-          descripcion: "Los conectores de energía permiten que la placa madre reciba alimentación desde la fuente de poder.",
-          categoria: "Conectores"
-        },
-        {
-          nombre: "Chipset",
-          descripcion: "El chipset controla la comunicación entre el procesador y los demás componentes.",
-          categoria: "Chips"
-        }
+      {
+        nombre: "Socket del Procesador",
+        descripcion: "El socket del procesador es la ranura donde se instala el CPU.",
+        categoria: "Conectores",
+        caracteristicas: ["Compatibilidad con múltiples CPUs", "Facilidad de instalación", "Durabilidad a largo plazo"]
+      },
+      {
+        nombre: "Ranuras de RAM",
+        descripcion: "Las ranuras de RAM son los espacios donde se insertan los módulos de memoria RAM.",
+        categoria: "Conectores",
+        caracteristicas: ["Soporte para múltiples canales", "Compatibilidad con diferentes tipos de RAM", "Ajuste seguro para módulos"]
+      },
+      {
+        nombre: "Puertos PCI",
+        descripcion: "Los puertos PCI permiten la instalación de tarjetas de expansión.",
+        categoria: "Conectores",
+        caracteristicas: ["Soporte para diferentes tipos de tarjetas", "Interconexión rápida", "Diseño modular"]
+      },
+      {
+        nombre: "Conectores SATA",
+        descripcion: "Los conectores SATA se utilizan para conectar discos duros y unidades SSD.",
+        categoria: "Conectores",
+        caracteristicas: ["Velocidades de transferencia de hasta 6 Gbps", "Fácil conexión y desconexión", "Soporte para múltiples dispositivos"]
+      },
+      {
+        nombre: "Chip de Audio",
+        descripcion: "El chip de audio maneja el procesamiento y la salida de sonido.",
+        categoria: "Chips",
+        caracteristicas: ["Calidad de sonido de alta fidelidad", "Soporte para múltiples canales", "Reducción de ruido"]
+      },
+      {
+        nombre: "Chip BIOS/UEFI",
+        descripcion: "El chip BIOS o UEFI contiene el firmware que inicializa el hardware del sistema.",
+        categoria: "Chips",
+        caracteristicas: ["Interfaz de usuario intuitiva", "Actualizaciones fáciles", "Soporte para arranque rápido"]
+      },
+      {
+        nombre: "Puertos USB",
+        descripcion: "Los puertos USB permiten la conexión de dispositivos periféricos.",
+        categoria: "Puertos",
+        caracteristicas: ["Compatibilidad con múltiples dispositivos",
+
+           "Velocidades de transferencia rápidas",
+           
+            "Conexión reversible en USB-C"]
+      },
+      {
+        nombre: "Conectores de Energía",
+        descripcion: "Los conectores de energía permiten que la placa madre reciba alimentación desde la fuente de poder.",
+        categoria: "Conectores",
+        caracteristicas: ["Conexión segura", "Distribución eficiente de energía", "Protección contra sobrecargas"]
+      },
+      {
+        nombre: "Chipset",
+        descripcion: "El chipset controla la comunicación entre el procesador y los demás componentes.",
+        categoria: "Chips",
+        caracteristicas: ["Mejora el rendimiento del sistema", "Gestión de la comunicación entre dispositivos", "Soporte para características avanzadas como overclocking"]
+      }
       ]
     }
   ];  
