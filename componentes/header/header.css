@@ -1,86 +1,88 @@
-header.coso {
+.header {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+
     justify-content: space-between;
-    background-color: #607274;
+    align-items: center;
+    background-color: #C9B6E4;
+    color: black;
     padding: 20px;
-    color: white;
-}
-
-header.coso h1 {
+    font-family: cursive, sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header p {
     font-size: 24px;
-    margin-bottom: 15px;
-}
-
-header.coso nav {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .opciones {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 15px;
-}
-
-header.coso nav a {
+    gap: 20px;
+  }
+  
+  .opciones p {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #FFE2E2;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #FFC7C7;
+    color: #333;
+  }
+  
+  .opciones p:hover {
+    background-color: #FDCEDF;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.639);
+    transform: scale(1.05);
+  }
+  
+  .botomgit {
+    background-color: #FFC7C7;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .botomgit:hover {
+    background-color: #FDCEDF;
+  }
+  
+  .botomgit a {
     color: black;
     text-decoration: none;
-    padding: 8px 12px;
-    background-color: #FAEED1;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-    font-size: 1rem;
-}
-
-header.coso nav a:hover {
-    background-color: #777;
-}
-
-header.coso .github-btn {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    background-color: #24292e;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-    font-size: 1rem;
-}
-
-header.coso .github-btn:hover {
-    background-color: #444;
-}
-
-@media (max-width: 480px) {
-    header.coso h1 {
-        font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .botomgit a:hover {
+    text-decoration: underline;
+  }
+  
+  .header div {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
     }
-
-    header.coso nav {
-        gap: 5px;
+  
+    .opciones {
+      flex-direction: column;
+      gap: 10px;
     }
-
-    header.coso nav a {
-        font-size: 14px;
-        padding: 6px 8px;
+  
+    .botomgit {
+      margin-top: 10px;
     }
-
-    header.coso .github-btn {
-        font-size: 14px;
-        padding: 8px 10px;
-    }
-}
-
-@media (max-width: 375px) {
-    header.coso h1 {
-        font-size: 18px;
-    }
-
-    header.coso nav a {
-        font-size: 12px;
-        padding: 5px 6px;
-    }
-
-    header.coso .github-btn {
-        font-size: 12px;
-        padding: 7px 8px;
-    }
-}
+  }
+  
