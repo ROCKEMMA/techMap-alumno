@@ -58,32 +58,49 @@
   .botomgit a {
     color: black;
     text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .botomgit a:hover {
-    text-decoration: underline;
-  }
-  
-  .header div {
-    display: flex;
-    align-items: center;
-  }
-  
-  @media (max-width: 768px) {
-    .header {
-      flex-direction: column;
-      text-align: center;
-      
+    padding: 10px 15px;
+    background-color: #24292e;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+header.coso .github-btn:hover {
+    background-color: #444;
+}
+
+@media (max-width: 480px) {
+    header.coso h1 {
+        font-size: 20px;
     }
-  
-    .opciones {
-      flex-direction: column;
-      gap: 10px;
+
+    header.coso nav {
+        gap: 5px;
     }
-  
-    .botomgit {
-      margin-top: 10px;
+
+    header.coso nav a {
+        font-size: 14px;
+        padding: 6px 8px;
     }
-  }
-  
+
+    header.coso .github-btn {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    header.coso h1 {
+        font-size: 18px;
+    }
+
+    header.coso nav a {
+        font-size: 12px;
+        padding: 5px 6px;
+    }
+
+    header.coso .github-btn {
+        font-size: 12px;
+        padding: 7px 8px;
+    }
+}

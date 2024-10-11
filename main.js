@@ -1,5 +1,10 @@
 import { header } from "./componentes/header/header.js"
 
-let root = document.querySelector(".root")
+let conexion = document.querySelector('.root');
 
-root.appendChild(header);
+function cargardiv(){
+    conexion.innerHTML=`
+    <div class="header">${header}</div>
+    `;
+}
+cargardiv();
