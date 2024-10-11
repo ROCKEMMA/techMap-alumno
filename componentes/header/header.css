@@ -1,88 +1,88 @@
 .header {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+
     justify-content: space-between;
-    background-color: #9BABB8;
+    align-items: center;
+    background-color: #C9B6E4;
+    color: black;
     padding: 20px;
-    color: white;
-    
-}
-.header p {
-    font-size: 24px; 
-    font-family: cursive;
-    margin-bottom: 15px;
-}
-
-.opciones {
+    font-family: cursive, sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .opciones {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 15px;
-}
-
-.opciones p {
+    gap: 20px;
+  }
+  
+  .opciones p {
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #FFE2E2;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #FFC7C7;
+    color: #333;
+  }
+  
+  .opciones p:hover {
+    background-color: #FDCEDF;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.639);
+    transform: scale(1.05);
+  }
+  
+  .botomgit {
+    background-color: #FFC7C7;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .botomgit:hover {
+    background-color: #FDCEDF;
+  }
+  
+  .botomgit a {
     color: black;
     text-decoration: none;
-    padding: 8px 12px;
-    background-color: #C4DFDF;
-    font-family: cursive;
-    border-radius: 4px;
-    font-size: 1rem;
-}
-.opciones p:hover {
-    background-color: #E3F4F4;
-}
-
-.botomgit {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    background-color: #C0DBEA;
-    border: none;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
-    font-size: 1rem;
-}
-
-.botomgit:hover {
-    background-color: #CDF0EA;
-}
-
-/* chaifons */
-@media (max-width: 480px) {
-    .header p {
-        font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .botomgit a:hover {
+    text-decoration: underline;
+  }
+  
+  .header div {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
     }
-
+  
     .opciones {
-        gap: 5px;
+      flex-direction: column;
+      gap: 10px;
     }
-
-    .opciones p {
-        font-size: 14px;
-        padding: 6px 8px;
-    }
-
+  
     .botomgit {
-        font-size: 14px;
-        padding: 8px 10px;
+      margin-top: 10px;
     }
-}
-
-@media (max-width: 375px) {
-    .header p {
-        font-size: 18px;
-    }
-
-    .opciones p {
-        font-size: 12px;
-        padding: 5px 6px;
-    }
-
-    .botomgit {
-        font-size: 12px;
-        padding: 7px 8px;
-    }
-}
+  }
+  
