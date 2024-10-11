@@ -1,88 +1,88 @@
 .header {
-    display: flex;
+  display: flex;
 
-    justify-content: space-between;
-    align-items: center;
-    background-color: #C9B6E4;
-    color: black;
-    padding: 20px;
-    font-family: cursive, sans-serif;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  }
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C9B6E4;
+  color: black;
+  padding: 20px;
+  font-family: cursive, sans-serif;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  cursor: pointer;
+}
+
+.opciones {
+  display: flex;
+  gap: 20px;
+}
+
+.opciones p {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  border: 2px solid #FFE2E2;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: #FFC7C7;
+  color: #333;
+}
+
+.opciones p:hover {
+  background-color: #FDCEDF;
+  color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.639);
+  transform: scale(1.05);
+}
+
+.botomgit {
+  background-color: #FFC7C7;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   
-  .header p {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
+}
+
+.botomgit:hover {
+  background-color: #FDCEDF;
+}
+
+.botomgit a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.botomgit a:hover {
+  text-decoration: underline;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
   }
-  
+
   .opciones {
-    display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
   }
-  
-  .opciones p {
-    font-size: 18px;
-    margin: 0;
-    padding: 10px;
-    border: 2px solid #FFE2E2;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    background-color: #FFC7C7;
-    color: #333;
-  }
-  
-  .opciones p:hover {
-    background-color: #FDCEDF;
-    color: black;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.639);
-    transform: scale(1.05);
-  }
-  
+
   .botomgit {
-    background-color: #FFC7C7;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    
+    margin-top: 10px;
   }
-  
-  .botomgit:hover {
-    background-color: #FDCEDF;
-  }
-  
-  .botomgit a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .botomgit a:hover {
-    text-decoration: underline;
-  }
-  
-  .header div {
-    display: flex;
-    align-items: center;
-  }
-  
-  @media (max-width: 768px) {
-    .header {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .opciones {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .botomgit {
-      margin-top: 10px;
-    }
-  }
-  
+}
